@@ -1,0 +1,107 @@
+header
+{
+    background-image: url(../images/DNDBanner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: navajowhite;
+    border: 1px solid black;
+}
+
+nav
+{
+    /*background-color: #000000;*/
+    padding: 5px;
+    text-align: center;
+    
+}
+
+nav ul li
+{
+    list-style-type: none;
+    
+    background-color: #B2B2B2;
+    
+    display: inline;
+    
+    padding: 15px;
+    
+    margin: 5px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover
+{
+    background-color: #8E8E8E;
+}
+nav ul li:active
+{
+    background-color: aqua;
+}
+body
+{
+    background-color: black;
+    color: white;
+    background-image: url(../images/Parchment.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.color{
+    text-align: center;
+    color: black;
+    
+    
+}
+
+aside.a{
+    width: 14%;
+    float: right;
+}
+aside.b{
+    width: 14%;
+    float: left;
+}
+
+aside ul li
+{
+    list-style-type: none;
+}
+aside ul li a
+{
+    color: blue;
+    text-decoration: none;
+}
+
+#bigPic {
+    width: 100%;
+}
+
+#active {
+    background-color: green;
+}
+
+.col_detail {
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+footer {
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    textext-align: center;
+}
